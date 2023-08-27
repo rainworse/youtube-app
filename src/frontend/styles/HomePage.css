@@ -1,0 +1,6 @@
+.home-video-grid {
+  margin: 20px 30px 30px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

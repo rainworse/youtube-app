@@ -1,0 +1,16 @@
+.video-comment {
+  display: flex;
+  margin-top: 5px;
+  max-width: 100%;
+}
+
+.video-comment-author-image {
+  width: 48px;
+  height: 48px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.video-comment-author-name {
+  font-weight: bold;
+}

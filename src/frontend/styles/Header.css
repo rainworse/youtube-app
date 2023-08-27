@@ -1,0 +1,83 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.header-logo {
+  width: 50px;
+}
+
+.header-logo-anchor {
+  margin-right: auto;
+}
+
+.header-form {
+  width: 50%;
+  display: flex;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.header-search-input {
+  width: 50%;
+  border: none;
+  border-bottom: 2px solid rgb(243, 243, 243);
+  border-right: 2px solid rgb(243, 243, 243);
+  border-radius: 10px;
+  font-family: 'Tinos', serif;
+  font-size: 16px;
+  height: 35px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-right: -35px;
+  padding-right: 35px;
+}
+
+.header-search-button {
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  width: 25px;
+  height: 25px;
+  background: url(/public/assets/search.svg) no-repeat;
+  background-size: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.header-login-anchor {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.header-logout {
+  display: flex;
+  align-items: center;
+}
+
+.header-profile-image {
+  width: 35px;
+}
+
+.header-profile-text {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-logout-anchor {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  align-self: end;
+}

@@ -1,0 +1,8 @@
+{
+  "youtube-api-key": "***INSERT KEY***",
+  "home-page-suggestion-count": 20,
+  "video-page-suggestion-count": 20,
+  "video-page-comment-count": 20,
+  "channel-page-video-count": 20,
+  "search-page-video-count": 20
+}
