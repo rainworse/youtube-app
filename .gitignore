@@ -25,3 +25,4 @@ dist-ssr
 
 # API keys and config
 apikey.txt
+src/apikeys.txt
