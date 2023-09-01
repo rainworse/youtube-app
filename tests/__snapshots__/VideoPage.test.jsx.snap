@@ -1,0 +1,183 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`VideoPage > renders video page 1`] = `
+<div>
+  <div
+    class="video-page"
+  >
+    <div
+      class="video-section"
+    >
+      <div
+        class="video-player"
+      >
+        <iframe
+          height="303.1578947368421"
+          id="iframe-video-player"
+          src="fake/video/url"
+          width="538.9473684210526"
+        />
+      </div>
+      <div
+        class="video-comment-section"
+      >
+        <form
+          class="add-comment-form"
+        >
+          <textarea
+            id="add-comment-field"
+            name="add-comment"
+            placeholder="Add a comment..."
+          />
+          <input
+            id="post-comment"
+            type="submit"
+            value="Post"
+          />
+        </form>
+        <div
+          class="video-comment"
+        >
+          <img
+            alt="image"
+            class="video-comment-author-image"
+            src="fake/urllocal"
+          />
+          <div
+            class="video-comment-content"
+          >
+            <div
+              class="video-comment-author-name"
+            >
+              local man
+            </div>
+            <div
+              class="video-comment-text"
+            >
+              local comment
+            </div>
+          </div>
+        </div>
+        <div
+          class="video-comment"
+        >
+          <img
+            alt="image"
+            class="video-comment-author-image"
+            src="fake/url1"
+          />
+          <div
+            class="video-comment-content"
+          >
+            <div
+              class="video-comment-author-name"
+            >
+              john pork
+            </div>
+            <div
+              class="video-comment-text"
+            >
+              sample comment
+            </div>
+          </div>
+        </div>
+        <div
+          class="video-comment"
+        >
+          <img
+            alt="image"
+            class="video-comment-author-image"
+            src="fake/url2"
+          />
+          <div
+            class="video-comment-content"
+          >
+            <div
+              class="video-comment-author-name"
+            >
+              richard d james
+            </div>
+            <div
+              class="video-comment-text"
+            >
+              another comment
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="video-suggestion-sidebar"
+    >
+      <div
+        class="video-card"
+      >
+        <a
+          class="video-card-thumbnail-anchor"
+          href="/video/001"
+        >
+          <img
+            alt="test video1"
+            class="video-card-thumbnail"
+            src="non/existent/location1"
+          />
+          <div
+            class="video-card-text"
+          >
+            <div
+              class="video-card-title"
+            >
+              test video1
+            </div>
+            <a
+              class="video-card-channel-anchor"
+              href="/channel/channel001"
+            >
+              <div
+                class="video-card-channel"
+              >
+                by 
+                test channel1
+              </div>
+            </a>
+          </div>
+        </a>
+      </div>
+      <div
+        class="video-card"
+      >
+        <a
+          class="video-card-thumbnail-anchor"
+          href="/video/002"
+        >
+          <img
+            alt="test video2"
+            class="video-card-thumbnail"
+            src="non/existent/location2"
+          />
+          <div
+            class="video-card-text"
+          >
+            <div
+              class="video-card-title"
+            >
+              test video2
+            </div>
+            <a
+              class="video-card-channel-anchor"
+              href="/channel/channel002"
+            >
+              <div
+                class="video-card-channel"
+              >
+                by 
+                test channel2
+              </div>
+            </a>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

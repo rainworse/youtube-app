@@ -1,0 +1,153 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Header > Login button takes you to login page 1`] = `
+<div>
+  <div
+    class="header"
+  >
+    <a
+      class="header-logo-anchor"
+      href="/"
+    >
+      <img
+        alt="logo"
+        class="header-logo"
+        src="http://localhost:3000/public/assets/logo.svg"
+      />
+    </a>
+    <form
+      class="header-form"
+    >
+      <input
+        class="header-search-input"
+        type="text"
+      />
+      <input
+        class="header-search-button"
+        type="submit"
+        value=""
+      />
+    </form>
+    <div
+      class="header-login-logout"
+    >
+      <div
+        class="header-login-link"
+      >
+        <a
+          class="header-login-anchor"
+          href="/login"
+        >
+          Login
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Header > renders header with current user 1`] = `
+<div>
+  <div
+    class="header"
+  >
+    <a
+      class="header-logo-anchor"
+      href="/"
+    >
+      <img
+        alt="logo"
+        class="header-logo"
+        src="http://localhost:3000/public/assets/logo.svg"
+      />
+    </a>
+    <form
+      class="header-form"
+    >
+      <input
+        class="header-search-input"
+        type="text"
+      />
+      <input
+        class="header-search-button"
+        type="submit"
+        value=""
+      />
+    </form>
+    <div
+      class="header-login-logout"
+    >
+      <div
+        class="header-logout"
+      >
+        <div
+          class="header-profile-text"
+        >
+          <div
+            class="header-user-name"
+          >
+            user
+          </div>
+          <a
+            class="header-logout-anchor"
+            href="/logout"
+          >
+            Logout
+          </a>
+        </div>
+        <img
+          alt="profile"
+          class="header-profile-image"
+          src="http://localhost:3000/public/assets/profile.svg"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Header > renders header with null user 1`] = `
+<div>
+  <div
+    class="header"
+  >
+    <a
+      class="header-logo-anchor"
+      href="/"
+    >
+      <img
+        alt="logo"
+        class="header-logo"
+        src="http://localhost:3000/public/assets/logo.svg"
+      />
+    </a>
+    <form
+      class="header-form"
+    >
+      <input
+        class="header-search-input"
+        type="text"
+      />
+      <input
+        class="header-search-button"
+        type="submit"
+        value=""
+      />
+    </form>
+    <div
+      class="header-login-logout"
+    >
+      <div
+        class="header-login-link"
+      >
+        <a
+          class="header-login-anchor"
+          href="/login"
+        >
+          Login
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

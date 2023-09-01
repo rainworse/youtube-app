@@ -1,0 +1,237 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App > renders App 1`] = `
+<div>
+  <div
+    class="header"
+  >
+    <a
+      class="header-logo-anchor"
+      href="/"
+    >
+      <img
+        alt="logo"
+        class="header-logo"
+        src="http://localhost:3000/public/assets/logo.svg"
+      />
+    </a>
+    <form
+      class="header-form"
+    >
+      <input
+        class="header-search-input"
+        type="text"
+      />
+      <input
+        class="header-search-button"
+        type="submit"
+        value=""
+      />
+    </form>
+    <div
+      class="header-login-logout"
+    >
+      <div
+        class="header-login-link"
+      >
+        <a
+          class="header-login-anchor"
+          href="/login"
+        >
+          Login
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    class="home-video-grid"
+  >
+    <div
+      class="video-card"
+    >
+      <a
+        class="video-card-thumbnail-anchor"
+        href="/video/001"
+      >
+        <img
+          alt="test video1"
+          class="video-card-thumbnail"
+          src="non/existent/location1"
+        />
+        <div
+          class="video-card-text"
+        >
+          <div
+            class="video-card-title"
+          >
+            test video1
+          </div>
+          <a
+            class="video-card-channel-anchor"
+            href="/channel/channel001"
+          >
+            <div
+              class="video-card-channel"
+            >
+              by 
+              test channel1
+            </div>
+          </a>
+        </div>
+      </a>
+    </div>
+    <div
+      class="video-card"
+    >
+      <a
+        class="video-card-thumbnail-anchor"
+        href="/video/002"
+      >
+        <img
+          alt="test video2"
+          class="video-card-thumbnail"
+          src="non/existent/location2"
+        />
+        <div
+          class="video-card-text"
+        >
+          <div
+            class="video-card-title"
+          >
+            test video2
+          </div>
+          <a
+            class="video-card-channel-anchor"
+            href="/channel/channel002"
+          >
+            <div
+              class="video-card-channel"
+            >
+              by 
+              test channel2
+            </div>
+          </a>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`App > renders header and home page with two videos 1`] = `
+<div>
+  <div
+    class="header"
+  >
+    <a
+      class="header-logo-anchor"
+      href="/"
+    >
+      <img
+        alt="logo"
+        class="header-logo"
+        src="http://localhost:3000/public/assets/logo.svg"
+      />
+    </a>
+    <form
+      class="header-form"
+    >
+      <input
+        class="header-search-input"
+        type="text"
+      />
+      <input
+        class="header-search-button"
+        type="submit"
+        value=""
+      />
+    </form>
+    <div
+      class="header-login-logout"
+    >
+      <div
+        class="header-login-link"
+      >
+        <a
+          class="header-login-anchor"
+          href="/login"
+        >
+          Login
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    class="home-video-grid"
+  >
+    <div
+      class="video-card"
+    >
+      <a
+        class="video-card-thumbnail-anchor"
+        href="/video/001"
+      >
+        <img
+          alt="test video1"
+          class="video-card-thumbnail"
+          src="non/existent/location1"
+        />
+        <div
+          class="video-card-text"
+        >
+          <div
+            class="video-card-title"
+          >
+            test video1
+          </div>
+          <a
+            class="video-card-channel-anchor"
+            href="/channel/channel001"
+          >
+            <div
+              class="video-card-channel"
+            >
+              by 
+              test channel1
+            </div>
+          </a>
+        </div>
+      </a>
+    </div>
+    <div
+      class="video-card"
+    >
+      <a
+        class="video-card-thumbnail-anchor"
+        href="/video/002"
+      >
+        <img
+          alt="test video2"
+          class="video-card-thumbnail"
+          src="non/existent/location2"
+        />
+        <div
+          class="video-card-text"
+        >
+          <div
+            class="video-card-title"
+          >
+            test video2
+          </div>
+          <a
+            class="video-card-channel-anchor"
+            href="/channel/channel002"
+          >
+            <div
+              class="video-card-channel"
+            >
+              by 
+              test channel2
+            </div>
+          </a>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;

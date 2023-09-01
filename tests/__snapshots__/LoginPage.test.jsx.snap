@@ -1,0 +1,27 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`LoginPage > renders the login page 1`] = `
+<div>
+  <div
+    class="login-page"
+  >
+    <form>
+      <div
+        class="login-page-inputs"
+      >
+        <input
+          id="username"
+          name="username"
+          placeholder="username"
+          type="text"
+        />
+        <input
+          id="login-button"
+          type="submit"
+          value="Login"
+        />
+      </div>
+    </form>
+  </div>
+</div>
+`;

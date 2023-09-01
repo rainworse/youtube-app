@@ -1,0 +1,146 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SearchPage > renders search page 1`] = `
+<div>
+  <div
+    class="search-results"
+  >
+    <div
+      class="video-card"
+    >
+      <a
+        class="video-card-thumbnail-anchor"
+        href="/video/001"
+      >
+        <img
+          alt="test video1"
+          class="video-card-thumbnail"
+          src="non/existent/location1"
+        />
+        <div
+          class="video-card-text"
+        >
+          <div
+            class="video-card-title"
+          >
+            test video1
+          </div>
+          <a
+            class="video-card-channel-anchor"
+            href="/channel/channel001"
+          >
+            <div
+              class="video-card-channel"
+            >
+              by 
+              test channel1
+            </div>
+          </a>
+        </div>
+      </a>
+    </div>
+    <div
+      class="video-card"
+    >
+      <a
+        class="video-card-thumbnail-anchor"
+        href="/video/002"
+      >
+        <img
+          alt="test video2"
+          class="video-card-thumbnail"
+          src="non/existent/location2"
+        />
+        <div
+          class="video-card-text"
+        >
+          <div
+            class="video-card-title"
+          >
+            test video2
+          </div>
+          <a
+            class="video-card-channel-anchor"
+            href="/channel/channel002"
+          >
+            <div
+              class="video-card-channel"
+            >
+              by 
+              test channel2
+            </div>
+          </a>
+        </div>
+      </a>
+    </div>
+    <div
+      class="video-card"
+    >
+      <a
+        class="video-card-thumbnail-anchor"
+        href="/video/003"
+      >
+        <img
+          alt="test video3"
+          class="video-card-thumbnail"
+          src="non/existent/location3"
+        />
+        <div
+          class="video-card-text"
+        >
+          <div
+            class="video-card-title"
+          >
+            test video3
+          </div>
+          <a
+            class="video-card-channel-anchor"
+            href="/channel/channel003"
+          >
+            <div
+              class="video-card-channel"
+            >
+              by 
+              test channel3
+            </div>
+          </a>
+        </div>
+      </a>
+    </div>
+    <div
+      class="video-card"
+    >
+      <a
+        class="video-card-thumbnail-anchor"
+        href="/video/004"
+      >
+        <img
+          alt="test video4"
+          class="video-card-thumbnail"
+          src="non/existent/location4"
+        />
+        <div
+          class="video-card-text"
+        >
+          <div
+            class="video-card-title"
+          >
+            test video4
+          </div>
+          <a
+            class="video-card-channel-anchor"
+            href="/channel/channel004"
+          >
+            <div
+              class="video-card-channel"
+            >
+              by 
+              test channel4
+            </div>
+          </a>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
